@@ -1,0 +1,24 @@
+:root{
+    --vermelho: red;
+    --preto: black;
+    --branco: white;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--preto);
+    color: white;
+
+}
+
+a {
+    color: white
+}
+
