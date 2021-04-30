@@ -1,7 +1,8 @@
 :root{
-    --vermelho: red;
-    --preto: black;
-    --branco: white;
+    --vermelho: #e50914;
+    --preto: #141414;
+    --cinza: #aaaaaa;
+    --branco: #ffffff;
 }
 
 
@@ -12,13 +13,31 @@
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
     background-color: var(--preto);
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza) ;   
+    margin-right: 10px;
 
 }
 
-a {
-    color: white
+header nav a:hover{
+    color: var(--branco);
 }
-
